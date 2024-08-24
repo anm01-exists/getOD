@@ -5,6 +5,7 @@ background-color:#FEFBF6;
 margin: 0;
 padding: 20px;
 border: 0;
+min-height: 80vh;
 }
 
 div .main{
@@ -84,7 +85,7 @@ img{
     margin: 10px;
     
     max-width: 300px;
-    min-height: 50px;
+    min-height: 100px;
     
 
     border:1px dotted #211911;
@@ -95,7 +96,7 @@ img{
 }
 section{
     display:grid;
-    grid-template-columns: 20% 20%;
+    grid-template-columns: 20% 20% 20%;
     gap: 20px;
     justify-content:center;
 
@@ -106,6 +107,7 @@ fieldset{
    border-color: #211911;
    border-bottom: 0;
    border-left: 0;
+   margin: 10px;
 }
 
 legend{
@@ -160,4 +162,5 @@ legend h1{
     width: 70%;
     background-color: #211911;
     margin: auto;
+  
   }
