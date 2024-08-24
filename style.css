@@ -62,6 +62,15 @@ img{
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.nav-element a{
+        color: #FEFBF6;
+        text-decoration: none;
+        
+}
+.nav-element a:hover{
+    color: #7c8b78;
+}
+
 
 .navi{
     display: flex;
