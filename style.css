@@ -1,19 +1,26 @@
 .main{
 width:100% ;
-background-color: #6C4E31;
-height:800px;
+background-color:#FEFBF6;
+
 margin: 0;
 padding: 20px;
 border: 0;
 }
+
+div .main{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
 .main h1{
     margin: 0;
 }
 
 .nav{
-    background-color: rgb(0, 0, 0);
-    height: 50px;
-    width: 100%;
+    background-color: #131110;
     padding: 0;
     margin: 0;
     border: 0;
@@ -26,44 +33,131 @@ body{
 }
 img{
     height: 50px;
+    padding: 0;
+    justify-content: flex-start;
+    margin:2px  10%;
+}
+
+.img h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-element{
     display: flex;
-
     margin: 0;
-    padding: 0;
+    padding: 10px;
     border: 0;
 
     color: aliceblue;
 }
 .nav-element h1{
-    margin: 0;
-    font-size: 20px;
-    padding: 10px;
+    margin: 5px;
+   font-size: 10%;
+    padding: 5px;
+   background-color: #5a9477;
+    border-radius: 20%;
+   
+    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-span{
-    width: 100%;
+
+.navi{
+    display: flex;
+
+    width: auto;
+    margin: auto;
+    margin-right: 50px;
+    
 }
 
-.box{
-    width: 100%;
-    display:flex;
-    justify-content: flex-end;
+.but h1{
+    font-size: 1rem;
+    color: #000;
+}
 
-    height: 200px;
-    width: 300px;
+
+.box{
+   
     background-color:#FFEAC5;
-    border-radius: 30px;
+    
     padding: 5px;
     margin: 10px;
-    gap: 10px;
-    border: 10px;
+    
+    max-width: 300px;
+    min-height: 50px;
+    
+
+    border:1px dotted #211911;
+
+   
+    
 
 }
 section{
-    display:flex;
+    display:grid;
+    grid-template-columns: 20% 20%;
+    gap: 20px;
+    justify-content:center;
+
+    
+   
+}
+fieldset{
+   border-color: #211911;
+   border-bottom: 0;
+   border-left: 0;
 }
 
-f
+legend{
+    background-color:#e6c49a;
+    border-radius:10px ;
+    font-weight: 500;
+    margin-left:  5%; ;
+}
+legend h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  footer{
+    height: 100%;
+    background-color: black;
+    
+    margin: 0;
+    
+  }
+  footer{
+    height: auto;
+    background-color: #433323;
+  }
+  footer div{
+    height: 50vh;
+    width: 1vw;
+  }
+  
+  .sec{
+    width: 100%;
+  }
+
+  .sec h1{
+    font-size: 200%;
+    
+    text-align: center;
+    margin:10px;
+    margin-top:0;
+    padding: 0 5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+  .divider{
+    display: flex;
+    height: 5px;
+    width: 70%;
+    background-color: #211911;
+    margin: auto;
+  }
