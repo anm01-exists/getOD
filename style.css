@@ -21,7 +21,7 @@ div .main{
 }
 
 .nav{
-    background-color: #131110;
+    background-color: #000000;
     padding: 0;
     margin: 0;
     border: 0;
@@ -56,8 +56,8 @@ img{
     margin: 5px;
    font-size: 10%;
     padding: 5px;
-   background-color: #3d4a3d;
-    border-radius: 20%;
+   background-color: #141a14;
+    border-radius: 10%;
    
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -76,7 +76,7 @@ img{
 
 .but h1{
     font-size: 1rem;
-    color: #e9e9e9;
+    color: #ffffff;
 }
 
 
@@ -87,7 +87,7 @@ img{
     
     padding: 5px;
     margin: 10px;
-    height: 200vw;
+    height: 10vw;
     max-width: 400px;
  
     
