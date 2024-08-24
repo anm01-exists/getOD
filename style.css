@@ -1,30 +1,69 @@
-header {
+.main{
+width:100% ;
+background-color: #6C4E31;
+height:800px;
+margin: 0;
+padding: 20px;
+border: 0;
+}
+.main h1{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+img{
+    height: 50px;
+}
+
+.nav-element{
     display: flex;
-    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    color: aliceblue;
+}
+.nav-element h1{
+    margin: 0;
+    font-size: 20px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    width: 100%;
 }
 
-.logo1 {
-    display: ruby;
-    width: 285px;
-    height: auto; 
-}
+.box{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
 
-.logo1 img {
-    max-width: 100%; 
-    height: auto; 
-}
-.buttons{
-    display: ruby;
-}
-.buttons button{
-    font-size: 21px;
-    color: rgb(255, 255, 255);
-    background-color:rgb(17, 3, 151);
+    height: 200px;
+    width: 300px;
+    background-color:#FFEAC5;
     border-radius: 30px;
-    width: 297px;
-    height: 60px;
-    margin-bottom: 35px;
+    padding: 5px;
+    margin: 10px;
+    gap: 10px;
+    border: 10px;
+
 }
-.buttons a{
-    color: rgb(255, 255, 255);
+section{
+    display:flex;
 }
+
+f
