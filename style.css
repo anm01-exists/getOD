@@ -99,15 +99,13 @@ img{
     height: 10vw;
     max-width: 400px;
  
-    
-
     border:1px dotted #211911;
-
-  
-   
-    
-
 }
+section a:hover{
+    
+}
+
+
 section{
     display:grid;
     grid-template-columns: 20% 20% ;
